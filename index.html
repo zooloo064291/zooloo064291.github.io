@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="뮤지컬 학전 인터넷 선교관. AI 시대에 역사와 예술로 인간의 존엄, 공동선, 연대, 사랑과 양심을 전하는 문화선교 공간.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://zooloo064291.github.io/">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="뮤지컬 학전(學田) 인터넷 선교관">
+  <meta property="og:title" content="뮤지컬 학전(學田) 인터넷 선교관">
+  <meta property="og:description" content="4차 산업혁명과 AI 시대에 인간의 존엄과 그리스도의 사랑을 역사 뮤지컬로 전하는 인터넷 선교관">
+  <meta property="og:url" content="https://zooloo064291.github.io/">
+  <meta name="google-site-verification" content="" data-placeholder="verification">
+  <meta name="naver-site-verification" content="" data-placeholder="verification">
+  <meta name="theme-color" content="#121817">
+  <title>뮤지컬 학전(學田) 인터넷 선교관 | 인간 존엄과 역사 뮤직비디오</title>
+  <style>
+    :root { --bg:#101716; --panel:#17211f; --panel2:#1e2a27; --cream:#f6efdd; --muted:#b7c1b9; --gold:#e0bc7c; --line:rgba(237,225,195,.15); --accent:#9d5349; --max:1120px; }
+    * {box-sizing:border-box}
+    html {scroll-behavior:smooth; scroll-padding-top:80px}
+    body {margin:0; font-family: "Noto Sans KR", "Malgun Gothic", "Apple SD Gothic Neo", system-ui, sans-serif; background:var(--bg); color:var(--cream); line-height:1.75}
+    button, a { -webkit-tap-highlight-color:transparent }
+    button {font:inherit}
+    a {color:inherit; text-decoration:none}
+    a:focus-visible, button:focus-visible {outline:3px solid var(--gold); outline-offset:3px}
+    .wrap {max-width:var(--max); margin:0 auto; padding:0 26px}
+    .topbar {position:sticky; top:0; z-index:40; background:rgba(16,23,22,.94); backdrop-filter:blur(18px); border-bottom:1px solid var(--line)}
+    .topbar-inner {min-height:78px; display:flex; gap:18px; justify-content:space-between; align-items:center}
+    .brand {display:flex; align-items:center; gap:13px; flex-shrink:0}
+    .brand-seal {width:60px; height:47px; display:grid; place-items:center; border:1px solid var(--gold); color:var(--gold); font-family:serif; font-size:22px; letter-spacing:.02em; border-radius:10px}
+    .brand strong {display:block; font-size:17px; letter-spacing:-.03em; line-height:1.2}
+    .brand small {display:block; color:var(--muted); font-size:11px; letter-spacing:.13em; line-height:1.8}
+    .nav {display:flex; flex-wrap:wrap; gap:26px; align-items:center}
+    .nav a {font-size:13px; color:#d5dbd3; transition:color .2s}
+    .nav a:hover {color:var(--gold)}
+    .menu-toggle {display:none; color:var(--cream); border:1px solid var(--line); background:transparent; border-radius:10px; padding:6px 12px}
+    .hero {position:relative; isolation:isolate; overflow:hidden; padding:120px 0 108px; min-height:660px; display:flex; align-items:center; background:radial-gradient(ellipse at 78% 40%, rgba(183,128,62,.15),transparent 44%), linear-gradient(130deg,#15231f 0%,#111816 53%,#251d19 100%)}
+    .hero:before {content:""; position:absolute; width:550px; height:550px; border:1px solid rgba(224,188,124,.15); border-radius:50%; right:-130px; top:50px; box-shadow:0 0 0 60px rgba(224,188,124,.025),0 0 0 130px rgba(224,188,124,.018); z-index:-1}
+    .hero:after {content:"學田"; position:absolute; white-space:nowrap; font-size:clamp(150px,28vw,390px); color:rgba(224,188,124,.045); font-family:serif; font-weight:700; right:6%; top:45%; transform:translateY(-50%); z-index:-1; line-height:1}
+    .eyebrow {font-size:12px; color:var(--gold); font-weight:750; letter-spacing:.18em; text-transform:uppercase}
+    h1,h2,h3,p {margin-top:0}
+    h1 {font-size:clamp(37px,5.3vw,72px); line-height:1.27; letter-spacing:-.055em; font-weight:780; margin:24px 0}
+    h1 em {font-style:normal; color:var(--gold)}
+    .lead {max-width:640px; color:#c9d1cb; font-size:clamp(15px,1.75vw,19px); line-height:1.95; word-break:keep-all}
+    .hero-actions {display:flex; flex-wrap:wrap; gap:12px; margin-top:36px}
+    .btn {display:inline-flex; justify-content:center; align-items:center; gap:10px; min-height:46px; border-radius:8px; padding:10px 20px; font-weight:700; font-size:14px; cursor:pointer; transition:transform .2s,background .2s}
+    .btn:hover {transform:translateY(-2px)}
+    .btn-primary {background:var(--gold); color:#17201b; border:1px solid var(--gold)}
+    .btn-ghost {background:transparent; color:var(--cream); border:1px solid rgba(246,239,221,.38)}
+    .hero-bottom {margin-top:76px; display:flex; align-items:center; gap:14px; color:#b0bdb5; font-size:12px; letter-spacing:.05em}
+    .hero-bottom .line {width:43px; border-top:1px solid var(--gold)}
+    section {padding:105px 0}
+    .section-head {max-width:760px; margin-bottom:42px}
+    .section-head h2 {font-size:clamp(29px,3.8vw,45px); letter-spacing:-.045em; line-height:1.35; margin:15px 0}
+    .section-head p {color:var(--muted); font-size:16px; word-break:keep-all}
+    .manifesto {background:#eee7d7; color:#1d2824}
+    .manifesto .eyebrow {color:#8e6041}
+    .manifesto .section-head p {color:#58665c}
+    .statement {border-left:3px solid #aa8056; padding:5px 0 5px 30px; margin:40px 0; font-size:clamp(19px,2.5vw,28px); font-weight:650; line-height:1.85; letter-spacing:-.04em; word-break:keep-all}
+    .statement em {font-style:normal; color:#8c5336}
+    .manifesto-note {color:#536057; max-width:740px; font-size:14px}
+    .values-grid {display:grid; grid-template-columns:repeat(4,1fr); gap:15px}
+    .value {padding:28px 23px 31px; border:1px solid var(--line); border-radius:13px; background:linear-gradient(145deg,#1c2925,#15201d); min-height:245px}
+    .value .num {font-family:Georgia,serif; color:var(--gold); font-size:15px}
+    .value h3 {margin:23px 0 14px; font-size:20px; letter-spacing:-.035em}
+    .value p {color:var(--muted); font-size:14px; line-height:1.85; margin:0; word-break:keep-all}
+    .works {background:#141d1b}
+    .filters {display:flex; flex-wrap:wrap; gap:9px; margin:-8px 0 28px}
+    .filter {background:transparent; color:var(--muted); border:1px solid #4d5b51; padding:8px 15px; border-radius:999px; font-size:13px; cursor:pointer}
+    .filter[aria-pressed="true"] {color:#17211f; background:var(--gold); border-color:var(--gold); font-weight:800}
+    .work-grid {display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:17px}
+    .work {text-align:left; background:#1b2723; border:1px solid var(--line); padding:0; border-radius:13px; overflow:hidden; display:block; color:inherit; width:100%; cursor:pointer}
+    .work:hover .work-top:after {opacity:.22}
+    .work-top {height:176px; display:flex; flex-direction:column; justify-content:flex-end; align-items:flex-start; padding:23px; position:relative; overflow:hidden; background:linear-gradient(145deg,var(--card-a),var(--card-b))}
+    .work-top:after {content:""; position:absolute; right:20px; top:-72px; width:230px; height:230px; border-radius:50%; border:1px solid #eac99a; opacity:.12; transition:opacity .2s}
+    .work-top .work-symbol {font-family:serif; font-size:75px; position:absolute; right:31px; top:7px; color:#f4d7ae; opacity:.35; line-height:1.7}
+    .work-type {font-size:11px; font-weight:750; color:#f9e9c8; letter-spacing:.1em; background:rgba(0,0,0,.2); border-radius:4px; padding:4px 8px}
+    .work-body {padding:23px}
+    .work-body h3 {font-size:21px; letter-spacing:-.04em; margin:0 0 5px}
+    .work-body p {font-size:13px; color:var(--muted); margin:0 0 17px; min-height:45px; word-break:keep-all}
+    .work-more {font-size:12px; color:var(--gold); font-weight:700}
+    .empty {color:var(--muted); padding:16px 0}
+    .solidarity {background:linear-gradient(115deg,#252f28,#18231f)}
+    .solidarity-inner {display:grid; grid-template-columns:1fr 1fr; gap:75px; align-items:center}
+    .solidarity-quote {margin:0; border-left:3px solid var(--gold); padding:12px 0 12px 30px; font-size:clamp(23px,3vw,37px); line-height:1.75; font-weight:730; letter-spacing:-.04em; word-break:keep-all}
+    .solidarity-quote b {color:var(--gold)}
+    .small-list {padding-left:20px; color:var(--muted); font-size:14px}
+    .small-list li {margin:10px 0}
+    .visit {text-align:center; background:radial-gradient(circle at 50% -10%,#3a3829,#151d1a 62%)}
+    .visit h2 {font-size:clamp(31px,4.5vw,54px); line-height:1.4; margin:17px auto 19px; max-width:900px; letter-spacing:-.045em}
+    .visit p {max-width:670px; margin:0 auto 28px; color:var(--muted); word-break:keep-all}
+    .notice {font-size:12px; color:#9fac9f; margin-top:18px}
+    footer {border-top:1px solid var(--line); padding:32px 0 40px; color:#9cad9e; font-size:12px}
+    .footer-inner {display:flex; justify-content:space-between; gap:18px; flex-wrap:wrap}
+    dialog {border:1px solid #6a715e; border-radius:14px; background:#18231f; color:var(--cream); width:min(590px,calc(100% - 24px)); padding:0; box-shadow:0 24px 80px #0009}
+    dialog::backdrop {background:#030807c9; backdrop-filter:blur(4px)}
+    .dialog-in {padding:33px}
+    .dialog-in h2 {font-size:27px; letter-spacing:-.03em; margin:8px 0 15px}
+    .dialog-in p {color:#c4cfc3; font-size:15px}
+    .dialog-foot {display:flex; justify-content:flex-end; padding:0 33px 26px}
+    .tiny {font-size:12px!important; color:#a5b3a5!important}
+    @media(max-width:900px) { .values-grid {grid-template-columns:repeat(2,1fr)} .solidarity-inner {grid-template-columns:1fr; gap:34px} }
+    @media(max-width:680px) {
+      .wrap {padding:0 19px} .topbar-inner {min-height:70px} .menu-toggle {display:block}
+      .nav {display:none; position:absolute; left:0; right:0; top:70px; padding:16px 23px 23px; background:#121b19; border-bottom:1px solid var(--line); flex-direction:column; align-items:stretch; gap:16px}
+      .nav.open {display:flex} .hero {padding:88px 0 65px; min-height:560px} .hero-bottom {margin-top:66px}
+      section {padding:70px 0} .values-grid,.work-grid {grid-template-columns:1fr} .value {min-height:auto} .statement {padding-left:17px} .work-top {height:148px}
+    }
+    @media(prefers-reduced-motion:reduce) {html {scroll-behavior:auto} *,*:before,*:after {transition:none!important}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#home" aria-label="뮤지컬 학전 인터넷 선교관 홈">
+        <span class="brand-seal" aria-hidden="true">學田</span>
+        <span><strong>뮤지컬 학전</strong><small>인터넷 선교관 · DIGITAL MISSION</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-controls="siteNav" aria-expanded="false">메뉴 ☰</button>
+      <nav class="nav" id="siteNav" aria-label="주요 메뉴">
+        <a href="#mission">선교관의 뜻</a><a href="#values">핵심 가치</a><a href="#works">작품관</a><a href="#solidarity">연대의 약속</a><a href="#visit">함께하기</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="wrap">
+        <div class="eyebrow">MUSICAL HAKJEON · INTERNET MISSION HALL</div>
+        <h1>기술의 시대,<br><em>인간의 존엄</em>을<br>노래하다.</h1>
+        <p class="lead">인공지능이 영상을 만들고 자본이 세상을 움직이는 시대. 우리는 사람을 숫자나 이념으로 판단하지 않습니다. 역사와 음악, 신앙과 예술을 통해 인간의 존엄과 사랑을 다시 묻습니다.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#mission">선교관 둘러보기 ↗</a><a class="btn btn-ghost" href="#works">역사 뮤지컬 보기</a></div>
+        <div class="hero-bottom"><span class="line" aria-hidden="true"></span>가톨릭 신앙에서 출발하여, 모든 사람의 존엄을 향하여</div>
+      </div>
+    </section>
+
+    <section class="manifesto" id="mission">
+      <div class="wrap">
+        <div class="section-head"><div class="eyebrow">01 / OUR MISSION</div><h2>인터넷 선교관, 왜 시작하는가</h2><p>우리는 AI와 기술을 거부하지 않습니다. 다만 기술과 시장, 이념이 인간보다 위에 놓이는 세상에 질문을 던집니다.</p></div>
+        <div class="statement">우리는 경제적 번영을 거부하지 않는다.<br>그러나 <em>돈으로 인간의 가치를 재는 세상</em>을 거부한다.<br><br>우리는 서로 다른 신념을 존중한다.<br>그러나 <em>어떤 이념도 인간의 생명보다 높지 않다.</em><br><br>우리는 AI를 사용한다.<br>그러나 <em>AI가 아니라 인간이 목적이다.</em></div>
+        <p class="manifesto-note">‘가톨릭’의 보편성에서 영감을 받아, 종교와 정치의 차이를 넘어 인간 존엄·공동선·연대·양심을 이야기하는 개인 문화선교 프로젝트입니다. 공식 교구·수도회 운영 사이트가 아닙니다.</p>
+      </div>
+    </section>
+
+    <section id="values">
+      <div class="wrap"><div class="section-head"><div class="eyebrow">02 / FOUR PILLARS</div><h2>우리가 지키려는 네 가지</h2><p>가톨릭 사회교리에서 영감을 얻은 인간 중심의 원칙입니다.</p></div>
+        <div class="values-grid">
+          <article class="value"><div class="num">I</div><h3>인간의 존엄</h3><p>인간은 생산성이나 재산, 정치적 입장으로 평가할 대상이 아닙니다. 누구나 존엄합니다.</p></article>
+          <article class="value"><div class="num">II</div><h3>공동선</h3><p>기술과 경제의 발전이 일부만이 아니라 모두의 삶을 더 낫게 만들어야 합니다.</p></article>
+          <article class="value"><div class="num">III</div><h3>연대와 자비</h3><p>가톨릭·개신교·불교·비종교인이 차이를 인정하며 인간의 고통 앞에 함께 섭니다.</p></article>
+          <article class="value"><div class="num">IV</div><h3>양심과 저항</h3><p>사람을 사랑하되 폭력을 정당화하지 않습니다. 권력과 증오 앞에서도 양심을 지킵니다.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="works" id="works">
+      <div class="wrap"><div class="section-head"><div class="eyebrow">03 / HISTORICAL MUSICALS</div><h2>역사를 노래하는 작품관</h2><p>인물의 삶을 통해 오늘의 인간에게 질문을 던집니다. 작품을 누르면 기획 의도를 볼 수 있습니다.</p></div>
+        <div class="filters" role="group" aria-label="작품 분류">
+          <button class="filter" data-filter="all" aria-pressed="true">전체</button>
+          <button class="filter" data-filter="christian" aria-pressed="false">그리스도교</button>
+          <button class="filter" data-filter="interfaith" aria-pressed="false">종교 간 연대</button>
+          <button class="filter" data-filter="history" aria-pressed="false">역사와 저항</button>
+        </div>
+        <div id="workGrid" class="work-grid" aria-live="polite"></div>
+        <div class="notice" aria-label="학전 역사 뮤지컬 작품 소개" style="text-align:left;line-height:1.9;margin-top:28px"><strong>역사 뮤직비디오 작품:</strong> 김수환 추기경 — 권력에 맞서는 인간의 존엄과 양심 · 손양원 목사 — 두 아들을 잃고도 원수를 품은 사랑과 신앙의 절개 · 법정 스님 — 종교를 넘어 함께하는 자비와 연대 · 홍범도 장군 — 자유와 존엄을 위한 역사적 저항. 실제 역사적 발언과 창작 대사를 구분합니다.</div>
+      </div>
+    </section>
+
+    <section class="solidarity" id="solidarity"><div class="wrap solidarity-inner">
+      <div><div class="eyebrow">04 / SOLIDARITY</div><h2 style="font-size:clamp(30px,3.5vw,45px);line-height:1.4;letter-spacing:-.05em;margin:15px 0">이것은 혼자서<br>할 수 있는 일이 아닙니다.</h2><p style="color:var(--muted)">극단적 이념, 물질만능주의, 인간을 수단으로 삼는 기술에 맞서 다양한 신앙과 생각을 가진 사람들이 함께 존엄을 지킵니다.</p><ul class="small-list"><li>다른 신앙과 견해를 가진 사람을 모욕하지 않습니다.</li><li>실제 역사적 사실과 창작 대사를 분명히 구분합니다.</li><li>AI를 도구로 사용하되 인간의 창작 책임을 지킵니다.</li></ul></div>
+      <blockquote class="solidarity-quote">사람은 용서하되,<br>불의에는 굴복하지 않는다.<br><br><b>사랑은 이념보다 크다.</b></blockquote>
+    </div></section>
+
+    <section class="visit" id="visit"><div class="wrap"><div class="eyebrow">A PLACE TO REMEMBER HUMANITY</div><h2>역사를 기억하고,<br>사람을 사랑하는 인터넷 선교관</h2><p>설교에 앞서 한 사람의 삶을 보여줍니다. 감동이 질문이 되고, 질문이 양심이 되고, 양심이 연대로 이어지기를 바랍니다.</p><a id="youtubeBtn" class="btn btn-primary" href="#works">학전 작품 둘러보기</a><p class="notice" id="channelNote">유튜브 채널 주소를 설정하면 이 버튼이 채널로 연결됩니다.</p></div></section>
+  </main>
+
+  <footer><div class="wrap footer-inner"><span>© <span id="year"></span> 뮤지컬 학전 · 인터넷 선교관</span><span>역사적 사실과 예술적 재구성을 구분합니다 · 모든 종교와 사람의 존엄을 존중합니다</span></div></footer>
+
+  <dialog id="workDialog" aria-labelledby="dialogTitle"><div class="dialog-in"><div id="dialogType" class="eyebrow"></div><h2 id="dialogTitle"></h2><p id="dialogContent"></p><p class="tiny" id="dialogNote"></p></div><div class="dialog-foot"><button class="btn btn-primary" id="closeDialog" type="button">닫기</button></div></dialog>
+
+  <script>
+    // 뮤지컬 학전 유튜브 채널 연결
+    const YOUTUBE_CHANNEL_URL = "https://www.youtube.com/@tv-gn2oi";
+
+    // 작품 설명을 고치거나, 새 객체를 추가하면 작품관에 자동 반영됩니다.
+    const WORKS = [
+      { title:"김수환 추기경 — 양심의 저항", type:"christian", tag:"가톨릭 · 양심", subtitle:"권력 앞에서 인간의 존엄을 지키는 목소리", symbol:"義", a:"#4c322f", b:"#1e2424", detail:"인간의 존엄과 양심의 자유를 지키기 위해 권력 앞에 선 김수환 추기경의 삶을 역사 뮤지컬의 언어로 다시 묻습니다.", note:"인용문과 실제 발언은 사료 확인 후 표기합니다." },
+      { title:"손양원 목사 — 나는 그리스도인이다", type:"christian", tag:"개신교 · 용서", subtitle:"원수를 품은 사랑과 신앙의 절개", symbol:"愛", a:"#604431", b:"#202b22", detail:"두 아들을 잃고도 가해자를 양자로 받아들인 손양원 목사의 삶을 통해 원수 사랑과 양심을 노래합니다. 손양원 목사는 개신교 목사이며, 이 작품은 종파를 넘어 복음의 사랑을 조명합니다.", note:"‘성경에 침을 뱉어라’, ‘너는 너의 아버지에게 침을 뱉느냐’는 역사적 발언으로 확인되지 않은 창작 장면입니다." },
+      { title:"법정 스님 — 경계를 넘어", type:"interfaith", tag:"불교 · 연대", subtitle:"종교를 넘어 인간을 위한 자비와 연대", symbol:"慈", a:"#364b42", b:"#182b28", detail:"법정 스님을 비롯해 종교의 경계를 넘어 인간을 위해 행동했던 이들의 자비와 연대의 정신을 되새깁니다.", note:"구체적 사건·발언은 사료로 확인한 뒤 작품에 반영합니다." },
+      { title:"홍범도 장군 — 돌아오는 이름", type:"history", tag:"역사 · 항일", subtitle:"빼앗긴 나라와 인간의 존엄을 위한 저항", symbol:"志", a:"#514538", b:"#232c2e", detail:"나라를 빼앗긴 시대에 저항했던 홍범도 장군의 삶을 노래하며 자유와 존엄의 의미를 되묻습니다.", note:"작품의 대사는 역사 기록에 기초한 예술적 재구성일 수 있습니다." }
+    ];
+
+    const grid = document.getElementById("workGrid");
+    const dialog = document.getElementById("workDialog");
+    const esc = s => String(s).replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[ch]));
+    function renderWorks(category="all") {
+      const list = WORKS.map((w,i)=>({...w,index:i})).filter(w=>category==="all"||w.type===category);
+      grid.innerHTML = list.length ? list.map(w=>`<button type="button" class="work" data-index="${w.index}" aria-label="${esc(w.title)} 소개 보기"><div class="work-top" style="--card-a:${w.a};--card-b:${w.b}"><span class="work-symbol" aria-hidden="true">${esc(w.symbol)}</span><span class="work-type">${esc(w.tag)}</span></div><div class="work-body"><h3>${esc(w.title)}</h3><p>${esc(w.subtitle)}</p><span class="work-more">작품 소개 보기 →</span></div></button>`).join("") : '<p class="empty">해당하는 작품이 없습니다.</p>';
+    }
+    grid.addEventListener("click", e=>{
+      const card=e.target.closest("[data-index]"); if(!card) return;
+      const w=WORKS[Number(card.dataset.index)];
+      document.getElementById("dialogType").textContent=w.tag;
+      document.getElementById("dialogTitle").textContent=w.title;
+      document.getElementById("dialogContent").textContent=w.detail;
+      document.getElementById("dialogNote").textContent=w.note;
+      if(typeof dialog.showModal==="function") dialog.showModal(); else dialog.setAttribute("open", "");
+    });
+    document.getElementById("closeDialog").addEventListener("click",()=>dialog.close());
+    dialog.addEventListener("click", e=>{if(e.target===dialog)dialog.close()});
+    document.querySelectorAll(".filter").forEach(btn=>btn.addEventListener("click",()=>{
+      document.querySelectorAll(".filter").forEach(b=>b.setAttribute("aria-pressed",String(b===btn)));
+      renderWorks(btn.dataset.filter);
+    }));
+    const toggle=document.getElementById("menuToggle"),nav=document.getElementById("siteNav");
+    toggle.addEventListener("click",()=>{const open=nav.classList.toggle("open"); toggle.setAttribute("aria-expanded",String(open));});
+    nav.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{nav.classList.remove("open");toggle.setAttribute("aria-expanded","false")}));
+    if(/^https:\/\/(www\.)?(youtube\.com|youtu\.be)\//i.test(YOUTUBE_CHANNEL_URL)) {
+      const btn=document.getElementById("youtubeBtn"); btn.href=YOUTUBE_CHANNEL_URL;btn.textContent="유튜브 학전 채널 방문 ↗";btn.target="_blank";btn.rel="noopener noreferrer";
+      document.getElementById("channelNote").textContent="새 창에서 유튜브 채널이 열립니다.";
+    }
+    document.getElementById("year").textContent=new Date().getFullYear();
+    renderWorks();
+  </script>
+</body>
+</html>
